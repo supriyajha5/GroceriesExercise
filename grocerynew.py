@@ -4,5 +4,5 @@ products = [
 ]
 print(products)
 for x in products:
-    for y, z in products[x]:
+    for y, z in products[x].items():
         print(y, z)

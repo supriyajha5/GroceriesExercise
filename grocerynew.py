@@ -3,5 +3,5 @@ products = [
     {"id":2, "name": "All-Seasons Salt", "department": "pantry", "aisle": "spices seasonings", "price": 4.99}
 ]
 print(products)
-for x, y in product.items():
+for x, y in products.items():
     print(x, y)

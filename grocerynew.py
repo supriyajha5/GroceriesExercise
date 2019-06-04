@@ -55,11 +55,17 @@ products = [
 #
 # Loop through both keys and values, by using the items() function:
 #print("****************************************")
+
+print("-----------------------")
+print("THERE ARE 20 PRODUCTS")
+print("-----------------------")
 count = 0
 for x in products:
     count += 1
     print("Details of product " + str(count)+ " : ")
     print("-------------------------")
+    print("+ " +str(x["name"])+ " ($" +str(x["price"])+ ")")
     for y, z in x.items():
         print("The " +str(y)+ " is " + str(z))
     print("****************************************")
+
